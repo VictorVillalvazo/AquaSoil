@@ -1,2 +1,3 @@
 # AquaSoil
-This project combines silica and perlite to create an "intelligent substrate" that maximizes water retention and prevents waste. Integrated with nutrient-rich black soil, it ensures a constant supply of moisture and minerals. As water is released, plants absorb vital residues, promoting species survival and achieving significant water savings.
+
+Este proyecto combina sílice y perlita para crear un "sustrato inteligente" que maximiza la retención de agua y evita el desperdicio. Integrado con tierra negra rica en nutrientes, asegura un suministro constante de humedad y minerales. A medida que se libera agua, las plantas absorben residuos vitales, promoviendo la supervivencia de las especies y logrando ahorros significativos de agua.
