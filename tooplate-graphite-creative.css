@@ -325,6 +325,53 @@ main {
   transform: scale(1.2);
 }
 
+/* ABOUT US SECTION */
+.section-aboutus {
+  padding: 120px 60px;
+  background-color: #1a7a4a;
+  border-bottom: 1px solid #2a8a5a;
+}
+
+.aboutus-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  align-items: center;
+}
+
+.aboutus-content h2 {
+  font-size: 42px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  color: white;
+  letter-spacing: -0.5px;
+}
+
+.aboutus-content p {
+  color: #d0d0d0;
+  margin-bottom: 20px;
+  font-size: 15px;
+  line-height: 1.8;
+}
+
+.aboutus-image {
+  position: relative;
+}
+
+.aboutus-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+}
+
+.aboutus-image:hover img {
+  transform: scale(1.02);
+}
+
 /* SERVICES SECTION - REDESIGNED WITH NUMBERS */
 .section-services {
   padding: 120px 60px;
@@ -750,6 +797,20 @@ main {
   height: 20%;
 }
 
+/* MAP CONTAINER */
+.map-container {
+  grid-column: 1 / -1;
+  margin-top: 40px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.map-container iframe {
+  display: block;
+  width: 100%;
+}
+
 /* FOOTER */
 footer {
   background-color: #1a7a4a;
@@ -808,6 +869,7 @@ footer a:hover {
   .section-services,
   .section-portfolio,
   .section-about,
+  .section-aboutus,
   .section-contact {
     padding: 80px 40px;
   }
@@ -822,6 +884,11 @@ footer a:hover {
   }
 
   .about-container {
+    grid-template-columns: 1fr;
+    gap: 50px;
+  }
+
+  .aboutus-container {
     grid-template-columns: 1fr;
     gap: 50px;
   }
@@ -1231,6 +1298,7 @@ footer a:hover {
   .section-services,
   .section-portfolio,
   .section-about,
+  .section-aboutus,
   .section-contact {
     padding: 60px 20px;
   }
@@ -1270,8 +1338,3 @@ footer a:hover {
     font-size: 11px;
   }
 }
-
-
-
-
-
